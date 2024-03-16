@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "next",
+    "prettier",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:storybook/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "root": true,
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": "off"
+  }
+}
